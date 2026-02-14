@@ -1,0 +1,10 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/openbase-community/web"
+    },
+    {
+      "url": "https://github.com/montaguegabe/camera-roll-sounds-api"
+    }
+  ]
+}

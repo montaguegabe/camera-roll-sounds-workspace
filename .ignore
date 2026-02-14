@@ -1,0 +1,3 @@
+# Allow us to search inside these gitignored directories
+!web/
+!camera-roll-sounds-api/

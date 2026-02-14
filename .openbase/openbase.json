@@ -1,0 +1,8 @@
+{
+    "project_name_snake": "camera_roll_sounds",
+    "project_name_kebab": "camera-roll-sounds",
+    "api_package_name": "camera_roll_sounds_api",
+    "django_app_name": "camera_roll_sounds",
+    "marketing_description": "Built with Openbase",
+    "api_prefix": "api/camera_roll_sounds"
+}
