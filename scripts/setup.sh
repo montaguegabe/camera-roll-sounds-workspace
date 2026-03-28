@@ -24,16 +24,10 @@ popd
 pushd ${ROOT_DIR}/camera-roll-sounds-react
 npm install
 popd
-pushd ${ROOT_DIR}/react-shared
-npm install
-popd
 
-# Link the react-shared package
-pushd ${ROOT_DIR}/react-shared
-npm link
-popd
-pushd ${ROOT_DIR}/camera-roll-sounds-react
-npm link openbase-react-shared
+# Prepare the iOS project dependencies
+pushd ${ROOT_DIR}/camera-roll-sounds-ios
+tuist install
 popd
 
 echo "Setup complete! Please restart your IDE, then you can run your project with the VS Code run button."

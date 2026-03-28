@@ -1,0 +1,12 @@
+---
+description: Repository structure documentation
+globs: 
+alwaysApply: false
+---
+This workspace contains multiple repositories:
+
+- `web`: Django web app and shared backend services for Camera Roll Sounds.
+- `camera-roll-sounds-api`: Image-to-audio processing API package for Camera Roll Sounds.
+- `camera-roll-sounds-ios`: Native iOS app for Camera Roll Sounds.
+- `camera-roll-sounds-react`: React frontend for Camera Roll Sounds.
+- `ios-shared`: Shared SwiftUI authentication and account components used by the iOS app.

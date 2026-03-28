@@ -4,6 +4,13 @@ data/
 .claude/settings.local.json
 .DS_Store
 
+# Multi workspace repos
+web/
+camera-roll-sounds-api/
+camera-roll-sounds-ios/
+camera-roll-sounds-react/
+ios-shared/
+
 # Generated files
 .vscode/launch.json
 .vscode/settings.json
@@ -12,3 +19,10 @@ data/
 ruff.toml
 CLAUDE.md
 AGENTS.md
+
+# Ignore repository directories
+web
+camera-roll-sounds-api
+camera-roll-sounds-ios
+camera-roll-sounds-react
+ios-shared

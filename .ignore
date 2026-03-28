@@ -1,0 +1,11 @@
+# Allow us to search inside these gitignored directories
+!web/
+!web
+!camera-roll-sounds-api/
+!camera-roll-sounds-api
+!camera-roll-sounds-ios/
+!camera-roll-sounds-ios
+!camera-roll-sounds-react/
+!camera-roll-sounds-react
+!ios-shared/
+!ios-shared

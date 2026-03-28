@@ -2,7 +2,7 @@
 
 ## Getting started
 
-This repo is a monorepo. `multi` is used here to sync shared workspace configuration across the project directories:
+This repo is the workspace repo for a `multi` setup. The app code lives in separate git repos checked out into these project directories:
 
 - `web`
 - `camera-roll-sounds-api`

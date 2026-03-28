@@ -1,20 +1,25 @@
 {
-  "monoRepo": true,
+  "monoRepo": false,
   "repos": [
     {
-      "name": "web"
+      "url": "https://github.com/montaguegabe/web",
+      "description": "Django web app and shared backend services for Camera Roll Sounds."
     },
     {
-      "name": "camera-roll-sounds-api"
+      "url": "https://github.com/montaguegabe/camera-roll-sounds-api",
+      "description": "Image-to-audio processing API package for Camera Roll Sounds."
     },
     {
-      "name": "camera-roll-sounds-ios"
+      "url": "https://github.com/montaguegabe/camera-roll-sounds-ios",
+      "description": "Native iOS app for Camera Roll Sounds."
     },
     {
-      "name": "camera-roll-sounds-react"
+      "url": "https://github.com/montaguegabe/camera-roll-sounds-react",
+      "description": "React frontend for Camera Roll Sounds."
     },
     {
-      "name": "ios-shared"
+      "url": "https://github.com/montaguegabe/ios-shared",
+      "description": "Shared SwiftUI authentication and account components used by the iOS app."
     }
   ]
 }

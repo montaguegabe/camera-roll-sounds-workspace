@@ -1,8 +1,0 @@
-Derived/
-.DS_Store
-/.build
-/Packages
-xcuserdata/
-DerivedData/
-.swiftpm/
-*.xcodeproj
