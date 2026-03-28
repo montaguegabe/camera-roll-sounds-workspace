@@ -1,13 +1,20 @@
 {
+  "monoRepo": true,
   "repos": [
     {
-      "url": "https://github.com/openbase-community/web"
+      "name": "web"
     },
     {
-      "url": "https://github.com/montaguegabe/camera-roll-sounds-api"
+      "name": "camera-roll-sounds-api"
     },
     {
-      "url": "https://github.com/montaguegabe/camera-roll-sounds-ios"
+      "name": "camera-roll-sounds-ios"
+    },
+    {
+      "name": "camera-roll-sounds-react"
+    },
+    {
+      "name": "ios-shared"
     }
   ]
 }

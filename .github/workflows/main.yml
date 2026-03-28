@@ -1,0 +1,26 @@
+# multi-generated: github-workflow
+# source: camera-roll-sounds-react/.github/workflows/main.yml
+# repo: camera-roll-sounds-react
+name: Upload Website
+true:
+  push:
+    branches:
+    - main
+    - staging
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Website
+      uses: openbase-community/deploy-react@main
+      with:
+        s3-prefix: ${{ github.ref == 'refs/heads/main' && 'camera-roll-sounds-react'
+          || 'camera-roll-sounds-react-staging' }}
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        s3-bucket: cdn.openbase.app
+        build-env: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging'
+          }}
+    defaults:
+      run:
+        working-directory: camera-roll-sounds-react

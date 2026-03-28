@@ -11,11 +11,4 @@ data/
 .vscode/extensions.json
 ruff.toml
 CLAUDE.md
-
-# Ignore repository directories
-web/
-camera-roll-sounds-api/
-web
-camera-roll-sounds-api
-camera-roll-sounds-ios/
-camera-roll-sounds-ios
+AGENTS.md
